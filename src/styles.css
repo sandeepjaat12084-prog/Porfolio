@@ -179,3 +179,19 @@
     opacity: 1;
   }
 }
+
+/* Hide Netlify injected floating drawer/badge */
+[data-netlify-drawer],
+#netlify-drawer,
+.netlify-drawer,
+#netlify-badge,
+.netlify-badge,
+netlify-drawer,
+iframe[src*="netlify"],
+div[class*="netlify-drawer"],
+div[class*="netlify-badge"] {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  opacity: 0 !important;
+}
