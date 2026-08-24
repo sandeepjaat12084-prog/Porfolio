@@ -77,7 +77,7 @@ A modern, high-performance, developer-focused portfolio designed for **Sandeep J
 ## 👥 Contributors
 
 - **Sandeep Jaat** ([@sandeepjaat12084-prog](https://github.com/sandeepjaat12084-prog)) — Author & Owner
-- **Priyanshu Gupta** ([@priyanshuguptcoder](https://github.com/priyanshuguptcoder)) — Contributor & Design Architecture
+- **Priyanshu Gupta** ([@priyanshuguptacoder](https://github.com/priyanshuguptacoder)) — Contributor & Design Architecture
 
 ---
 
