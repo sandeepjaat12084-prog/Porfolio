@@ -26,6 +26,27 @@ export const personalInfo = {
     startYear: 2025,
     endYear: 2029,
   },
+  academicMilestones: [
+    {
+      title: "JEE Main",
+      highlight: "99.1%ile",
+      badge: "99.1 Percentile",
+      description: "Achieved 99.1 percentile in JEE Main with top national rank.",
+    },
+    {
+      title: "JEE Advanced",
+      highlight: "Qualified",
+      badge: "IIT Qualified",
+      description: "Qualified in one of the most competitive engineering entrance exams in India.",
+    },
+    {
+      title: "CLC, Rajasthan",
+      highlight: "Prep & Foundation",
+      badge: "Sikar, Rajasthan",
+      description:
+        "Intensive 2-year competitive problem-solving foundation at Career Line Coaching (CLC).",
+    },
+  ],
 } as const;
 
 export const aboutParagraphs = [
