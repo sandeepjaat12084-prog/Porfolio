@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { MotionConfig } from "framer-motion";
 
 import { About } from "@/components/portfolio/about";
+import { AmbientBackground } from "@/components/portfolio/ambient-background";
 import { Coding } from "@/components/portfolio/coding";
 import { Contact } from "@/components/portfolio/contact";
 import { Education } from "@/components/portfolio/education";
@@ -78,9 +79,10 @@ export const Route = createFileRoute("/")({
 function HomePage() {
   return (
     <MotionConfig reducedMotion="user">
-      <div className="min-h-screen bg-background text-foreground selection:bg-primary/20 selection:text-primary">
+      <div className="relative min-h-screen bg-background text-foreground selection:bg-primary/20 selection:text-primary">
+        <AmbientBackground />
         <Navbar />
-        <main>
+        <main className="relative z-10">
           <Hero />
           <About />
           <Coding />

@@ -49,12 +49,15 @@ export function Skills() {
 
                 <ul className="mt-6 flex flex-wrap gap-2">
                   {category.skills.map((skill) => (
-                    <li
+                    <motion.li
                       key={skill}
-                      className="rounded-lg border border-border/80 bg-background/60 px-3 py-1.5 font-mono text-xs text-foreground/90 transition-colors group-hover:border-primary/30 hover:border-primary/60 hover:text-primary"
+                      whileHover={{ scale: 1.08, y: -2 }}
+                      whileTap={{ scale: 0.96 }}
+                      transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                      className="cursor-default rounded-lg border border-border/80 bg-background/60 px-3 py-1.5 font-mono text-xs text-foreground/90 transition-colors group-hover:border-primary/30 hover:border-primary hover:bg-primary/10 hover:text-primary"
                     >
                       {skill}
-                    </li>
+                    </motion.li>
                   ))}
                 </ul>
               </div>

@@ -194,6 +194,29 @@ export function Hero() {
                   </p>
                 </div>
               </div>
+
+              {/* Floating Animated Badge 1: Top Left */}
+              <motion.div
+                animate={{ y: [0, -8, 0] }}
+                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                className="absolute -top-3 -left-3 glass rounded-xl border border-primary/30 px-3 py-1.5 shadow-lg hidden sm:flex items-center gap-2"
+              >
+                <span className="flex h-2 w-2 rounded-full bg-emerald-400 animate-ping" />
+                <span className="font-mono text-xs font-semibold text-primary">
+                  1650+ @ LeetCode
+                </span>
+              </motion.div>
+
+              {/* Floating Animated Badge 2: Bottom Right */}
+              <motion.div
+                animate={{ y: [0, 8, 0] }}
+                transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+                className="absolute -bottom-3 -right-3 glass rounded-xl border border-primary/30 px-3 py-1.5 shadow-lg hidden sm:flex items-center gap-2"
+              >
+                <span className="font-mono text-xs font-semibold text-foreground/90">
+                  ⚡ 500+ DSA Solved
+                </span>
+              </motion.div>
             </div>
           </motion.div>
         </div>
