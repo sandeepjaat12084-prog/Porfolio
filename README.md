@@ -1,9 +1,9 @@
 # Sandeep Jaat — Developer Portfolio
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-10b981.svg)](https://github.com/sandeepjaat12084-prog/Porfolio)
-[![React](https://img.shields.io/badge/React-19-61dafb.svg?logo=react&logoColor=black)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178c6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38bdf8.svg?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Live Website](https://img.shields.io/badge/Live_Site-sandeepjaatportfolio.netlify.app-10b981?style=for-the-badge&logo=netlify&logoColor=white)](https://sandeepjaatportfolio.netlify.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sandeepjaat12084-prog/Porfolio)
+
+> 🌐 **Live Website**: [https://sandeepjaatportfolio.netlify.app/](https://sandeepjaatportfolio.netlify.app/)
 
 A modern, high-performance, developer-focused portfolio designed for **Sandeep Jaat**, Computer Science & Engineering Student at **Dr. B. R. Ambedkar National Institute of Technology, Jalandhar (NIT Jalandhar)**.
 
@@ -11,13 +11,13 @@ A modern, high-performance, developer-focused portfolio designed for **Sandeep J
 
 ## ✨ Features
 
-- **Developer-Focused Hero**: Prominent identity, real profile photo presentation, clear role hierarchy, and status indicators.
-- **DSA & Competitive Programming Credibility**: Verified metrics (**400+ Problems Solved** & **100+ Codeforces Problems**), platform practice cards, and an interactive 18-topic Core DSA practice grid.
-- **Technical Arsenal**: Clean category cards for Full-Stack Development, Problem Solving & DSA (C/C++), Databases, and Developer Tools.
+- **Developer-Focused Hero**: Real profile photo presentation, clear role hierarchy, status badges, and interactive ambient glow.
+- **DSA & Competitive Programming Credibility**: Verified metrics (**500+ Problems Solved**, **1650+ @ LeetCode**, **Pupil @ Codeforces**, **2⭐ @ CodeChef**, **5⭐ @ HackerRank**), platform practice cards, and an interactive 18-topic Core DSA practice grid.
+- **Technical Arsenal**: Clean category cards for Full-Stack Development (React, Next.js, Node, Express, MongoDB), Problem Solving & DSA (C/C++), Databases, and Developer Tools.
 - **Structured Projects Showcase**: Problem ➔ Solution ➔ Impact ➔ Key Work architecture with tech badges and direct links.
-- **Academic Timeline & Resume**: Clean NIT Jalandhar education card and direct resume download action.
-- **Minimal Verified Contacts**: Direct links for Email, Phone, LinkedIn, and GitHub.
-- **Restrained Motion Design**: Subtle Framer Motion reveal animations and smooth hover transitions.
+- **Academic Timeline & Foundations**: Clean NIT Jalandhar education card (2025–2029) alongside JEE Main 99.1%ile, JEE Advanced, and CLC Rajasthan milestones.
+- **Minimal Verified Contacts**: Direct links and 1-click copy actions for Email and Phone, plus LinkedIn and GitHub.
+- **Restrained Motion Design**: Subtle Framer Motion reveal animations, smooth hover transitions, and floating scroll-to-top button.
 
 ---
 
@@ -30,6 +30,7 @@ A modern, high-performance, developer-focused portfolio designed for **Sandeep J
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Bundler & Tooling**: [Vite](https://vite.dev/), ESLint, Prettier
+- **Deployment**: [Netlify](https://www.netlify.com/)
 
 ---
 
@@ -83,4 +84,3 @@ A modern, high-performance, developer-focused portfolio designed for **Sandeep J
 ## 📄 License
 
 © 2026 Sandeep Jaat. All rights reserved.
-
