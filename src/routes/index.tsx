@@ -11,6 +11,7 @@ import { Hero } from "@/components/portfolio/hero";
 import { Navbar } from "@/components/portfolio/navbar";
 import { Projects } from "@/components/portfolio/projects";
 import { Resume } from "@/components/portfolio/resume";
+import { ScrollToTop } from "@/components/portfolio/scroll-to-top";
 import { Skills } from "@/components/portfolio/skills";
 
 export const Route = createFileRoute("/")({
@@ -93,6 +94,7 @@ function HomePage() {
           <Contact />
         </main>
         <Footer />
+        <ScrollToTop />
       </div>
     </MotionConfig>
   );
