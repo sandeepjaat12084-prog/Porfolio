@@ -1,5 +1,14 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight, Code2, Cpu, Flame, Layers, Trophy, type LucideIcon } from "lucide-react";
+import {
+  ArrowUpRight,
+  Code2,
+  Cpu,
+  Flame,
+  Layers,
+  Target,
+  Trophy,
+  type LucideIcon,
+} from "lucide-react";
 
 import { Section, SectionHeading } from "@/components/portfolio/section";
 import { codingPlatforms, codingStats, dsaTopics } from "@/data/coding";
@@ -8,6 +17,7 @@ const platformIcons: Record<string, LucideIcon> = {
   LeetCode: Code2,
   Codeforces: Trophy,
   CodeChef: Flame,
+  HackerRank: Target,
 };
 
 export function Coding() {
@@ -16,38 +26,46 @@ export function Coding() {
       <SectionHeading
         eyebrow="Problem Solving Credibility"
         title="DSA & Competitive Programming"
-        description="Consistent practice in algorithmic problem solving, pattern mastery, and competitive programming fundamentals."
+        description="Competitive programming has strengthened my problem-solving skills, analytical thinking, and ability to write efficient, maintainable code."
         id="coding-heading"
       />
 
       {/* Primary Verified Metrics */}
-      <div className="grid gap-5 sm:grid-cols-2 mb-10">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 mb-10">
         {codingStats.map((stat, i) => (
           <motion.div
             key={stat.label}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-40px" }}
-            transition={{ duration: 0.45, delay: i * 0.1, ease: "easeOut" }}
-            className="glass shadow-soft relative overflow-hidden rounded-2xl p-6 sm:p-7 transition-colors hover:border-primary/40"
+            transition={{ duration: 0.45, delay: i * 0.08, ease: "easeOut" }}
+            className="glass shadow-soft relative overflow-hidden rounded-2xl p-5 sm:p-6 transition-colors hover:border-primary/40"
           >
             <div className="flex items-center justify-between">
-              <span className="font-mono text-xs font-semibold tracking-wider text-primary uppercase">
+              <span className="font-mono text-[11px] font-semibold tracking-wider text-primary uppercase">
                 Verified Metric
               </span>
-              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary/10 text-primary">
-                {i === 0 ? <Code2 className="h-4 w-4" /> : <Trophy className="h-4 w-4" />}
+              <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                {i === 0 ? (
+                  <Code2 className="h-3.5 w-3.5" />
+                ) : i === 1 ? (
+                  <Target className="h-3.5 w-3.5" />
+                ) : i === 2 ? (
+                  <Trophy className="h-3.5 w-3.5" />
+                ) : (
+                  <Flame className="h-3.5 w-3.5" />
+                )}
               </span>
             </div>
-            <div className="mt-4 flex items-baseline gap-2">
-              <span className="font-display text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
+            <div className="mt-3 flex items-baseline gap-2">
+              <span className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
                 {stat.value}
               </span>
             </div>
-            <h3 className="mt-1 font-display text-lg font-semibold text-foreground">
+            <h3 className="mt-1 font-display text-base font-semibold text-foreground">
               {stat.label}
             </h3>
-            <p className="mt-2 text-xs leading-relaxed text-muted-foreground sm:text-sm">
+            <p className="mt-1.5 text-xs leading-relaxed text-muted-foreground">
               {stat.description}
             </p>
           </motion.div>
@@ -60,7 +78,7 @@ export function Coding() {
           <Layers className="h-4 w-4 text-primary" />
           Coding Platforms
         </h3>
-        <div className="grid gap-5 sm:grid-cols-3">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {codingPlatforms.map((profile, i) => {
             const Icon = platformIcons[profile.platform] ?? Code2;
             const card = (

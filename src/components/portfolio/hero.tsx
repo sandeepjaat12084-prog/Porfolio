@@ -78,9 +78,28 @@ export function Hero() {
             </motion.p>
 
             {/* Supporting Roles */}
-            <motion.p variants={item} className="mt-2 font-mono text-xs text-primary sm:text-sm">
+            <motion.p
+              variants={item}
+              className="mt-2 font-mono text-xs text-primary font-medium sm:text-sm"
+            >
               {personalInfo.supportingRoles}
             </motion.p>
+
+            {/* Quick Credibility Pill */}
+            <motion.div variants={item} className="mt-3 flex flex-wrap gap-2">
+              <span className="rounded-md border border-border bg-secondary/40 px-2.5 py-1 font-mono text-[11px] text-foreground/90">
+                ⚡ 500+ DSA/CP
+              </span>
+              <span className="rounded-md border border-border bg-secondary/40 px-2.5 py-1 font-mono text-[11px] text-foreground/90">
+                🏆 1650+ @ LeetCode
+              </span>
+              <span className="rounded-md border border-border bg-secondary/40 px-2.5 py-1 font-mono text-[11px] text-foreground/90">
+                🎯 Pupil @ Codeforces
+              </span>
+              <span className="rounded-md border border-border bg-secondary/40 px-2.5 py-1 font-mono text-[11px] text-foreground/90">
+                ⭐ 2⭐ CodeChef
+              </span>
+            </motion.div>
 
             {/* Description */}
             <motion.p

@@ -8,15 +8,17 @@ export const personalInfo = {
   location: "Jaipur, Rajasthan, India",
   headline: "Computer Science & Engineering Student",
   status: "Open to Internship Opportunities",
-  supportingRoles: "Software Developer • Competitive Programmer • Full-Stack Developer",
+  supportingRoles: "MERN-Stack Developer • Competitive Programmer • CSE '29 @ NITJ",
+  credentialsLine:
+    "CSE '29 @ NITJ | 1650+ @ LeetCode | Pupil @ Codeforces | 2⭐ @ CodeChef | 5⭐ @ HackerRank | 500+ DSA/CP",
   roles: [
     "Computer Science & Engineering Student",
-    "Software Developer",
-    "Competitive Programmer",
-    "Full-Stack Developer",
+    "MERN-Stack Web Developer",
+    "Competitive Programmer (Pupil @ CF)",
+    "DSA Problem Solver (500+ Solved)",
   ],
   intro:
-    "I am a Computer Science and Engineering student at Dr. B. R. Ambedkar National Institute of Technology, Jalandhar, passionate about software development, Data Structures & Algorithms, competitive programming, and building practical web applications.",
+    "I'm a second-year Computer Science student at NIT Jalandhar with a strong interest in software engineering, full-stack development, and competitive programming. I enjoy solving challenging algorithmic problems and building scalable, user-centric applications that solve real-world problems.",
   education: {
     institute: "Dr. B. R. Ambedkar National Institute of Technology, Jalandhar",
     shortInstitute: "NIT Jalandhar",
@@ -50,7 +52,7 @@ export const personalInfo = {
 } as const;
 
 export const aboutParagraphs = [
-  "I am a second-year Computer Science and Engineering student at Dr. B. R. Ambedkar National Institute of Technology, Jalandhar.",
-  "My primary interests are software development, Data Structures & Algorithms, competitive programming, and full-stack web development.",
-  "Alongside development, I regularly practice algorithmic problem solving and work on projects that help me turn concepts into practical systems.",
+  "I'm a second-year Computer Science student at NIT Jalandhar with a strong interest in software engineering, full-stack development, and competitive programming.",
+  "I enjoy solving challenging algorithmic problems and building scalable, user-centric applications that solve real-world problems.",
+  "Competitive programming has strengthened my problem-solving skills, analytical thinking, and ability to write efficient, maintainable code.",
 ] as const;

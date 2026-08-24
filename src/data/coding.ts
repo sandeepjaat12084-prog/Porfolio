@@ -5,14 +5,24 @@
 
 export const codingStats = [
   {
-    value: "400+",
+    value: "500+",
     label: "Problems Solved",
     description: "DSA & competitive programming problems solved across practice platforms.",
   },
   {
-    value: "100+",
-    label: "Codeforces Problems",
-    description: "Algorithmic problems solved with a focus on contest problem solving.",
+    value: "1650+",
+    label: "LeetCode Rating",
+    description: "Consistent problem solving and contest performance.",
+  },
+  {
+    value: "Pupil",
+    label: "Codeforces Rank",
+    description: "Active competitive programming contest participant.",
+  },
+  {
+    value: "2⭐",
+    label: "CodeChef Rating",
+    description: "Division contest participant and algorithmic problem solver.",
   },
 ] as const;
 
@@ -30,23 +40,23 @@ export const codingPlatforms: CodingPlatform[] = [
     platform: "LeetCode",
     url: "",
     handle: "sandeepjaat",
-    focus: "Data Structures & Algorithms",
+    focus: "1650+ Rating",
     description:
-      "Consistent practice in Data Structures & Algorithms with a focus on pattern recognition, efficient problem solving, and interview preparation.",
+      "Consistent practice in Data Structures & Algorithms with a focus on pattern recognition, interview preparation, and contest solving.",
     metrics: [
+      { label: "Rating", value: "1650+" },
       { label: "Focus", value: "DSA Practice" },
-      { label: "Status", value: "Active" },
     ],
   },
   {
     platform: "Codeforces",
     url: "",
     handle: "sandeepjaat",
-    focus: "Competitive Programming",
+    focus: "Pupil Rank",
     description:
-      "Building competitive programming fundamentals through regular problem solving and contest practice.",
+      "Building competitive programming fundamentals through regular Div. 2 / Div. 3 problem solving and contest practice.",
     metrics: [
-      { label: "Problems", value: "100+" },
+      { label: "Rank", value: "Pupil" },
       { label: "Status", value: "Active" },
     ],
   },
@@ -54,12 +64,24 @@ export const codingPlatforms: CodingPlatform[] = [
     platform: "CodeChef",
     url: "",
     handle: "sandeepjaat",
-    focus: "Contest Problem Solving",
+    focus: "2⭐ Star Coder",
     description:
-      "Participating in timed contests and practicing algorithmic concepts under time constraints.",
+      "Participating in rated Starters contests and practicing algorithmic concepts under timed constraints.",
     metrics: [
-      { label: "Focus", value: "Contests & Practice" },
-      { label: "Status", value: "Active" },
+      { label: "Stars", value: "2⭐" },
+      { label: "Division", value: "Active" },
+    ],
+  },
+  {
+    platform: "HackerRank",
+    url: "",
+    handle: "sandeepjaat",
+    focus: "5⭐ Gold Badge",
+    description:
+      "Earned 5-star problem solving badge in core data structures, algorithms, and C++ fundamentals.",
+    metrics: [
+      { label: "Problem Solving", value: "5⭐ Star" },
+      { label: "Status", value: "Verified" },
     ],
   },
 ];

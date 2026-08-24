@@ -56,19 +56,19 @@ export function Resume() {
           <ul className="grid gap-2 sm:grid-cols-2 text-xs text-muted-foreground">
             <li className="flex items-center gap-2">
               <CheckCircle2 className="h-3.5 w-3.5 text-primary shrink-0" />
-              <span>400+ DSA Problems & 100+ Codeforces Solved</span>
+              <span>500+ DSA/CP Problems Solved (1650+ @ LeetCode)</span>
             </li>
             <li className="flex items-center gap-2">
               <CheckCircle2 className="h-3.5 w-3.5 text-primary shrink-0" />
-              <span>B.Tech in CSE at NIT Jalandhar ('29)</span>
+              <span>Pupil @ Codeforces • 2⭐ @ CodeChef • 5⭐ @ HackerRank</span>
             </li>
             <li className="flex items-center gap-2">
               <CheckCircle2 className="h-3.5 w-3.5 text-primary shrink-0" />
-              <span>Full-Stack Development (React, Node, Express, MongoDB)</span>
+              <span>B.Tech in CSE at NIT Jalandhar ('29) • 99.1%ile JEE Main</span>
             </li>
             <li className="flex items-center gap-2">
               <CheckCircle2 className="h-3.5 w-3.5 text-primary shrink-0" />
-              <span>Strong foundation in C++ and Core CS concepts</span>
+              <span>Full-Stack MERN Stack (React, Next.js, Node, Express, MongoDB)</span>
             </li>
           </ul>
         </div>

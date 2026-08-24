@@ -18,6 +18,7 @@ export const skillCategories: SkillCategory[] = [
     icon: "fullstack",
     skills: [
       "React",
+      "Next.js",
       "JavaScript",
       "TypeScript",
       "Tailwind CSS",
